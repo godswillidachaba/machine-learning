@@ -2,6 +2,8 @@ from dash import Dash, html
 
 app = Dash()
 
+server = app.server
+
 app.layout = [
     html.Div(children="Hello World")
 ]
